@@ -105,7 +105,7 @@ function displayRandomImage() {
       const imageName = `${randomNumber}.png`;
   
       // Create the full path to the image
-      const imagePath = `../assets/${imageName}`;
+      const imagePath = `${imageName}`;
   
       // Find the target element where the image will be displayed
       const imageContainer = document.getElementById('image-container');
