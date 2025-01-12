@@ -187,7 +187,7 @@ function displayRandomImage() {
       const imgElement = document.createElement('img');
       imgElement.src = imagePath;
       imgElement.alt = `Random Image ${randomNumber}`;
-      imgElement.class = 'rounded-full';
+      imgElement.classList.add('rounded-full');
   
       // Add the image element to the container
       imageContainer.appendChild(imgElement);
