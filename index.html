@@ -7,22 +7,25 @@
       <link rel="stylesheet" href="./output.css">
       <link rel="shortcut icon" href="../assets/fav.jpg" type="image/x-icon">
 </head>
-<body>
-<div id="main" class="bg-[#0f172a] h-screen w-screen flex justify-center items-center" >
-      <div id="container" class="w-[400px] h-[650px] border border-white text-white rounded-[25px]">
+<body class="bg-[#0f172a] h-screen w-screen flex justify-center items-center text-white font-mono">
+
+      <div id="container" class="w-[450px] h-[650px] border border-white  rounded-[25px] mt-6 mx-2 p-1">
 <!-- Headings Section -->
-            <div id="headings" class="flex justify-center mt-6">
+            <div id="headings" class="flex justify-center mt-6 ">
                   <div>
-                     <div class="text-center font-bold text-3xl">Wanna Have Some Fun ?</div>
-                     <div class="text-center font-semibold text-2xl mt-6">Let's Scratch! 🥵</div>
+                     <div class="text-center font-light text-2xl ">Wanna Have Some Fun ?</div>
+                     <div class="text-center font-extralight text-xl mt-6">Let's Scratch! 🥵</div>
                   </div>
             </div>
 <!-- Scratch Card Section -->
             <div id="scSection" class="flex justify-center  mt-10 mb-10">
 
-                  <div id="base" class="w-[300px] h-[250px] flex justify-center items-center text-center ">
-                        <div id="image-container"></div>
-                        <canvas id="scratch" class=" h-[250px] ml-[170px] absolute"></canvas>
+                  <div id="base" class="w-[250px] h-[250px] rounded-full flex justify-center items-center text-center overflow-hidden bg-white">
+                        
+                        <div id="image-container" class="">
+                              
+                        </div>
+                        <canvas id="scratch" class=" h-[250px] w-[250px] rounded-full absolute"></canvas>
       
                   </div>
                   
@@ -44,16 +47,17 @@
 
             </div>
 <!-- Cradit Section -->
-            <div id="cradits" class="flex justify-center mt-[80px]">
+            <div id="cradits" class="flex justify-center mt-12">
                   <a href="#">Made With ❤️ By SHAANY</a>
             </div>
 
 
       </div>
 
-</div>
+
 
 
 <script src="script.js"></script>
+<script type="text/javascript" src="scripts/scratchcard.min.js"></script>
 </body>
 </html>
